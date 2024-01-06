@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Wood3 {
 
+    // Бин Wood3 помечен как компонент, который конструируется через связывание по @Autowired с помощью конструктора.
+    // Связь леса и зайца
     private final Rabbit4 rabbit;
 
     @Autowired

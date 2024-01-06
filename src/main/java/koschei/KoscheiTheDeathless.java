@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class KoscheiTheDeathless {
-
+    // Кощей связан с океаном через поле и сеттер @Autowired
     private Ocean1 ocean;
 
     public String getRulesByDeth() {
