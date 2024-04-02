@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "koschei")
 public class AppConfig {
-
+    // методами создаются Бин острова и иглы (POJO-классов)
     // Обратите внимание, что данный метод обозначен аннотацией @Bean, что автоматически подтягивает
     // аргументы в метод. В качестве аргумента выступает бин Wood3. (связь острова и леса)
     @Bean
